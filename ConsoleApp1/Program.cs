@@ -8,7 +8,7 @@ namespace ConsoleApp1
     {
         private static string result;
 
-        static async void Main(string[] args)
+        static async Task Main(string[] args)
         {
             await SaySomething();
             Console.WriteLine(result);
