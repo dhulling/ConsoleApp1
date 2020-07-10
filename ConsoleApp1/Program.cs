@@ -10,7 +10,7 @@ namespace ConsoleApp1
 
         static async Task Main(string[] args)
         {
-            await SaySomething();
+            SaySomething();
             Console.WriteLine(result);
             Console.WriteLine("stuff");
         }
