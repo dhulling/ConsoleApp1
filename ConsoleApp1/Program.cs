@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
             SaySomething();
             Console.WriteLine(result);
-            Console.WriteLine("stuff");
+            Console.WriteLine("Supren Supren, Suben Suben, Maldeskstra dekstra, Maldeskstra dekstra, Bee Aye Komenco");
         }
         static async Task<string> SaySomething()
         {
