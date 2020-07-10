@@ -12,12 +12,12 @@ namespace ConsoleApp1
         {
             SaySomething();
             Console.WriteLine(result);
-            Console.WriteLine("Supren Supren, Suben Suben, Maldeskstra dekstra, Maldeskstra dekstra, Bee Aye Komenco");
+            Console.WriteLine("Supren Supren, Suben Suben, Maldeskstra dekstra, Maldeskstra dekstra, Bee Aye Komenco!!\r");
         }
         static async Task<string> SaySomething()
         {
             await Task.Delay(5);
-            result = "Hello World";
+            result = "Saluton Mondo\n";
             return "Something";
         }
     }
