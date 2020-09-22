@@ -10,14 +10,14 @@ namespace ConsoleApp1
 
         static async Task Main(string[] args)
         {
-            SaySomething();
+            await SaySomething();
             Console.WriteLine(result);
             Console.WriteLine("Supren Supren, Suben Suben, Maldeskstra dekstra, Maldeskstra dekstra, Bee Aye Komenco!!\r");
         }
         static async Task<string> SaySomething()
         {
             await Task.Delay(5);
-            result = "Hellow World!\n";
+            result = "Saluton Mondo!\n";
             return "Something";
         }
     }
