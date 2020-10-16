@@ -17,7 +17,7 @@ namespace ConsoleApp1
         static async Task<string> SaySomething()
         {
             await Task.Delay(5);
-            result = "Hello World!\n";
+            result = "Saluton Mondo!\n";
             return "Something";
         }
     }
